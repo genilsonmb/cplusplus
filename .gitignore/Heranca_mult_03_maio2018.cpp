@@ -8,6 +8,7 @@ class Pai{
 		virtual void m1(){
 			cout << "PaiM1\n";
 		}
+	//testar com virtual e sem aqui tambem
 		void m2() {
 			m1();
 			cout << "PaiM2\n";
@@ -18,6 +19,7 @@ class Pai{
 
 class Filho:public Pai{
 public:
+	//testar com virtual e sem aqui tambem
 	void m1(){
 		cout << "FilhoM1\n";
 	}
